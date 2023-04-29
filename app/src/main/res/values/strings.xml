@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TheGallery</string>
+    <string name="projects">Projects</string>
+    <string name="create_a_new_project">create a new project</string>
+    <string name="gallery">Gallery</string>
+    <string name="import_selected_files">import %s files to project</string>
+    <string name="remove_project">remove project?</string>
+    <string name="remove">remove</string>
+    <string name="add">add more</string>
+    <string name="action">action</string>
+    <string name="new_files_first">new files first</string>
+    <string name="old_files_first">old files first</string>
+
+    <string-array name="range_array">
+        <item>0</item> // first time of video track
+        <item>100</item> // max time for video track
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="default_8dp">8dp</dimen>
+    <dimen name="default_16dp">16dp</dimen>
+    <dimen name="default_26dp">26dp</dimen>
+    <dimen name="default_32dp">32dp</dimen>
+    <dimen name="default_52dp">52dp</dimen>
+    <dimen name="default_62dp">62dp</dimen>
+    <dimen name="default_72dp">72dp</dimen>
+    <dimen name="default_92dp">92dp</dimen>
+    <dimen name="default_136dp">136dp</dimen>
+
+</resources>
