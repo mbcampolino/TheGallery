@@ -58,8 +58,11 @@ class MainActivity : AppCompatActivity(R.layout.gallery_activity_main), GalleryA
         galleryList = findViewById(R.id.recycler_gallery)
         btnImportMedias = findViewById(R.id.button_select_medias)
         btnOrderBy = findViewById(R.id.button_orderby)
+        btnOrderBy.setOnClickListener(this)
         btnFilterContentType = findViewById(R.id.button_type_media)
+        btnFilterContentType.setOnClickListener(this)
         btnPermission = findViewById(R.id.button_request_media_access)
+        btnPermission.setOnClickListener(this)
 
         galleryAdapter = GalleryAdapter(arrayListOf(), this)
         galleryList.adapter = galleryAdapter
